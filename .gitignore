@@ -1,0 +1,45 @@
+# Worktrees (isolated development branches)
+.worktrees/
+worktrees/
+
+# Learnings and memory
+.learnings/
+memory/
+
+# OpenClaw internal
+.openclaw/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.venv/
+.env
+
+# Uploads (face recognition system)
+uploads/
+
+# Node.js
+node_modules/
+dist/
+
+# IDE
+../.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local

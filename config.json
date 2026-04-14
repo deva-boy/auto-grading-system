@@ -1,0 +1,177 @@
+{
+  "system_info": {
+    "name": "自动批阅试卷系统",
+    "version": "1.0.0",
+    "description": "适配现有数据的批阅系统"
+  },
+  "data_paths": {
+    "base_directory": "C:\\Users\\32601\\.openclaw\\workspace\\.worktrees\\auto-grading\\auto-grading-system",
+    "raw_images": "C:\\Users\\32601\\.openclaw\\workspace\\.worktrees\\auto-grading\\auto-grading-system\\data\\raw",
+    "answer_documents": "C:\\Users\\32601\\.openclaw\\workspace\\.worktrees\\auto-grading\\auto-grading-system\\data\\labels",
+    "processed_pdfs": "C:\\Users\\32601\\.openclaw\\workspace\\.worktrees\\auto-grading\\auto-grading-system\\data\\processed"
+  },
+  "students": {
+    "刘乃山": {
+      "student_name": "刘乃山",
+      "images": [
+        "刘乃山_1.png",
+        "刘乃山_2.png"
+      ],
+      "pdfs": [
+        "2108170113_刘乃山.pdf"
+      ],
+      "total_images": 2,
+      "image_count": 2
+    },
+    "刘伟": {
+      "student_name": "刘伟",
+      "images": [
+        "刘伟_1.png",
+        "刘伟_2.png"
+      ],
+      "pdfs": [
+        "2108170116_刘伟.pdf"
+      ],
+      "total_images": 2,
+      "image_count": 2
+    },
+    "刘冠君": {
+      "student_name": "刘冠君",
+      "images": [
+        "刘冠君_1.png",
+        "刘冠君_2.png"
+      ],
+      "pdfs": [
+        "2108170112_刘冠君.pdf"
+      ],
+      "total_images": 2,
+      "image_count": 2
+    },
+    "刘少展": {
+      "student_name": "刘少展",
+      "images": [
+        "刘少展_1.png",
+        "刘少展_2.png"
+      ],
+      "pdfs": [
+        "2108170114_刘少展.pdf"
+      ],
+      "total_images": 2,
+      "image_count": 2
+    },
+    "刘泽豪": {
+      "student_name": "刘泽豪",
+      "images": [
+        "刘泽豪_1.png",
+        "刘泽豪_2.png"
+      ],
+      "pdfs": [
+        "1808070111_刘泽豪.pdf"
+      ],
+      "total_images": 2,
+      "image_count": 2
+    },
+    "孙志豪": {
+      "student_name": "孙志豪",
+      "images": [
+        "孙志豪_1.png",
+        "孙志豪_2.png"
+      ],
+      "pdfs": [
+        "2108170122_孙志豪.pdf"
+      ],
+      "total_images": 2,
+      "image_count": 2
+    },
+    "李梦雪": {
+      "student_name": "李梦雪",
+      "images": [
+        "李梦雪_1.png",
+        "李梦雪_2.png"
+      ],
+      "pdfs": [
+        "2108170110_李梦雪.pdf"
+      ],
+      "total_images": 2,
+      "image_count": 2
+    },
+    "王策元": {
+      "student_name": "王策元",
+      "images": [
+        "王策元_1.png",
+        "王策元_2.png"
+      ],
+      "pdfs": [
+        "2108170125_王策元.pdf"
+      ],
+      "total_images": 2,
+      "image_count": 2
+    },
+    "闫廷肃": {
+      "student_name": "闫廷肃",
+      "images": [
+        "闫廷肃_1.png",
+        "闫廷肃_2.png"
+      ],
+      "pdfs": [
+        "2108170130_闫廷肃.pdf"
+      ],
+      "total_images": 2,
+      "image_count": 2
+    },
+    "陈小雅": {
+      "student_name": "陈小雅",
+      "images": [
+        "陈小雅_1.png",
+        "陈小雅_2.png"
+      ],
+      "pdfs": [
+        "2108170101_陈小雅.pdf"
+      ],
+      "total_images": 2,
+      "image_count": 2
+    },
+    "陈雪涵": {
+      "student_name": "陈雪涵",
+      "images": [
+        "陈雪涵_1.png",
+        "陈雪涵_2.png"
+      ],
+      "pdfs": [
+        "2108170102_陈雪涵.pdf"
+      ],
+      "total_images": 2,
+      "image_count": 2
+    }
+  },
+  "answer_documents": [
+    {
+      "filename": "5-2023-1-嵌入式系统原理B试题(A).doc",
+      "subject": "1",
+      "document_type": "A",
+      "year": "5",
+      "semester": "2023",
+      "version": "嵌入式系统原理B试题",
+      "file_size": 111027,
+      "has_content": false,
+      "note": "由于文件编码问题，无法解析详细内容，需要手动配置答案"
+    },
+    {
+      "filename": "6-2023-1-嵌入式系统原理试题(A)答案.doc",
+      "subject": "1",
+      "document_type": "A)答案",
+      "year": "6",
+      "semester": "2023",
+      "version": "嵌入式系统原理试题",
+      "file_size": 49664,
+      "has_content": false,
+      "note": "由于文件编码问题，无法解析详细内容，需要手动配置答案"
+    }
+  ],
+  "processing_settings": {
+    "default_subject": "嵌入式系统原理",
+    "default_document_type": "A",
+    "batch_processing": true,
+    "output_format": "json"
+  }
+}
