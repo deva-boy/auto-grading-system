@@ -9,7 +9,7 @@ class GradingEngine:
 
     def __init__(self, use_ai: bool = True):
         self.use_ai = use_ai
-        self.client = ZhipuAiClient(api_key="3c6edd3ecf3545d08014ea9edaa8d98a.fcDAMVKEVBpw2xd8")
+        self.client = ZhipuAiClient(api_key="VLM_API_KEY")
 
     # ------------------- 新增：整体大题评分（无理由，只返回整数分数）-------------------
     def _ai_grade_big_question(self, big_question_desc: str, student_answer: str, total_score: int) -> int:
